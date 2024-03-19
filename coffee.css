@@ -1,0 +1,236 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(75, 17, 5);
+}
+
+.Home-page {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(87, 41, 8);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Home-page > img {
+  width: 70px;
+  height: 70px;
+  margin-left: 200px;
+}
+.Home-page > input {
+  width: 400px;
+  height: 50px;
+  display: flex;
+  margin-right: 200px;
+}
+.Home-page2 {
+  width: 100%;
+  height: 90px;
+  background-color: rgb(64, 28, 3);
+  display: flex;
+  justify-content: space-between;
+  justify-content: baseline;
+}
+.Home-page2 > button {
+  width: 100px;
+  height: 40px;
+  margin-top: 30px;
+  margin-right: 100px;
+  background-color: rgb(188, 46, 46);
+}
+.product-cover > img {
+  width: 100%;
+  height: 600px;
+}
+.button-click {
+  width: 800px;
+  height: 40px;
+  background-color: rgb(64, 28, 3);
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-left: 300px;
+  font-family: Verdana, sans-serif;
+  color: rgb(234, 234, 226);
+}
+p {
+  text-align: center;
+  color: rgb(238, 229, 227);
+  font-size: 4rem;
+  font-family: "fasthand", cursive;
+}
+.list-product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list {
+  width: 400px;
+  height: 150px;
+  background-color: rgb(204, 198, 209);
+  border-radius: 30px;
+}
+.list-cafe {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+}
+.list-cafe > img {
+  width: 130px;
+  height: 110px;
+  position: relative;
+  margin-top: -10px;
+}
+.list,
+p {
+  margin-top: -5px;
+}
+h2 {
+  text-align: center;
+  color: aliceblue;
+  font-size: 4rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.pop-menu {
+  width: 350px;
+  height: 600px;
+  background-color: rgba(255, 54, 18, 0.352);
+  border-radius: 30px;
+  font-size: 1rem;
+}
+.pop-menu > i {
+  color: rgb(220, 153, 20);
+  margin-left: 70px;
+  font-weight: 800;
+  font-size: medium;
+}
+.pop-menu > img {
+  width: 330px;
+  height: 350px;
+  margin-left: 10px;
+  border-radius: 30px;
+  margin-top: 10px;
+}
+.pop-menu,
+p {
+  font-size: 2rem;
+  margin: 2px;
+}
+
+.popular-menu {
+  display: flex;
+  justify-content: space-evenly;
+}
+.baner,
+h3 {
+  text-align: center;
+  font-size: 3rem;
+  color: rgb(177, 151, 142);
+}
+.popnew-menu {
+  width: 350px;
+  height: 500px;
+  background-color: rgb(138, 27, 35);
+  border-radius: 30px;
+  font-size: 1rem;
+}
+.popnew-menu > img {
+  width: 330px;
+  height: 250px;
+  margin-left: 10px;
+  border-radius: 30px;
+  margin-top: 5px;
+}
+.popnew-menu,
+p {
+  font-size: 2rem;
+  margin: 2px;
+}
+.new-menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.popnew-menu > i {
+  margin-left: 70px;
+  color: rgb(220, 153, 20);
+  font-weight: 800;
+  font-size: medium;
+}
+
+.best-drink {
+  width: 1400px;
+  height: 400px;
+  background-color: rgba(57, 20, 20, 0.921);
+  border-radius: 100px;
+  margin: 200px 130px;
+  color: rgb(196, 162, 40);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.best-drink > img {
+  margin-top: -150px;
+  margin-left: 70px;
+  width: 300px;
+  border-top-left-radius: 70px;
+  border-bottom-right-radius: 100px;
+}
+.service {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(234, 96, 84);
+}
+
+.service-img > img {
+  display: inline;
+  justify-content: space-around;
+  width: 250px;
+  margin-right: 150px;
+}
+.service-mss {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: normal;
+  margin-right: 150px;
+  margin-top: 10px;
+}
+.service,
+h {
+  color: rgb(214, 195, 188);
+  text-align: center;
+}
+.finish{
+    width: 100%;
+    height: 250px;
+    background-color: rgba(168, 55, 47, 0.772);
+    color: rgb(229, 224, 215);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.list1>img{
+    width: 100px;
+    margin-left: 50px;
+}
+.product-cover{
+    background-image: url(bg-cake.jpg);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.product-cover>img{
+    width: 300px;
+    height: 500px;
+}
+.product-cover>p{
+    color: rgb(189, 77, 77);
+    font-weight:bolder ;
+}
+.creater{
+  display: flex;
+  justify-content: space-around;
+}
